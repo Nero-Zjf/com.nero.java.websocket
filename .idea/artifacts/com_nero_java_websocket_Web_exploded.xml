@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="com.nero.java.websocket:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_nero_java_websocket_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="com.nero.java.websocket/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com.nero.java.websocket" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.websocket-api-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.websocket-api-1.1-javadoc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.websocket-api-1.1-sources.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
